@@ -109,18 +109,18 @@ Los iconos se cargan desde el servicio de FontAwesome mediante la siguiente lín
 <script src="https://kit.fontawesome.com/ba6470173b.js" crossorigin="anonymous"></script>
 ```
 ### Uso de Iconos
-- En el sitio web se utilizan diversos iconos de FontAwesome. Algunos ejemplos son:
+- *En el sitio web se utilizan diversos iconos de FontAwesome. Algunos ejemplos son:*
 
--- Icono de medalla: <i class="fa-solid fa-medal"></i>
--- Icono de usuarios: <i class="fa-solid fa-users"></i>
--- Icono de la Tierra (Europa): <i class="fa-solid fa-earth-europe"></i>
--- Icono de etiqueta: <i class="fa-solid fa-tag"></i>
--- Icono de tarjeta de crédito Visa: <i class="fa-brands fa-cc-visa"></i>
--- Icono de tarjeta de crédito Mastercard: <i class="fa-brands fa-cc-mastercard"></i>
--- Icono de tarjeta de crédito Paypal: <i class="fa-brands fa-cc-paypal"></i>
--- Icono de tarjeta de crédito Amazon Pay: <i class="fa-brands fa-cc-amazon-pay"></i>
--- Iconos de redes sociales (Instagram, Facebook, Twitter):
--- Instagram: <i class="fab fa-instagram footer-icon"></i>
--- Facebook: <i class="fab fa-facebook-f footer-icon"></i>
--- Twitter: <i class="fab fa-twitter footer-icon"></i>
+- Icono de medalla: <i class="fa-solid fa-medal"></i>
+- Icono de usuarios: <i class="fa-solid fa-users"></i>
+- Icono de la Tierra (Europa): <i class="fa-solid fa-earth-europe"></i>
+- Icono de etiqueta: <i class="fa-solid fa-tag"></i>
+- Icono de tarjeta de crédito Visa: <i class="fa-brands fa-cc-visa"></i>
+- Icono de tarjeta de crédito Mastercard: <i class="fa-brands fa-cc-mastercard"></i>
+- Icono de tarjeta de crédito Paypal: <i class="fa-brands fa-cc-paypal"></i>
+- Icono de tarjeta de crédito Amazon Pay: <i class="fa-brands fa-cc-amazon-pay"></i>
+- Iconos de redes sociales (Instagram, Facebook, Twitter):
+- Instagram: <i class="fab fa-instagram footer-icon"></i>
+- Facebook: <i class="fab fa-facebook-f footer-icon"></i>
+- Twitter: <i class="fab fa-twitter footer-icon"></i>
 Estos iconos se utilizan en la navegación y en el pie de página para facilitar la interacción del usuario.
