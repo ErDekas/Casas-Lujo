@@ -109,7 +109,7 @@ Los iconos se cargan desde el servicio de FontAwesome mediante la siguiente lín
 <script src="https://kit.fontawesome.com/ba6470173b.js" crossorigin="anonymous"></script>
 ```
 ### Uso de Iconos
-- *En el sitio web se utilizan diversos iconos de FontAwesome. Algunos ejemplos son:*
+**En el sitio web se utilizan diversos iconos de FontAwesome. Algunos ejemplos son:**
 
 - Icono de medalla: <i class="fa-solid fa-medal"></i>
 - Icono de usuarios: <i class="fa-solid fa-users"></i>
