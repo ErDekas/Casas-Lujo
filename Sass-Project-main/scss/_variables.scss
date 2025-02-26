@@ -1,0 +1,46 @@
+$font-family-text: 'Quicksand', sans-serif !important;
+
+$colors: (
+    blanco: #d7d7d7,
+    negro: #111111,
+    azul: #3838ff,
+    azul_claro : #50a8ff,
+    amarillo: #fcfca2,
+    rojo: #ff5d5d,
+    lima: #7dff7d,
+    oro: #fbe35d,
+    oro_oscuro: #dcb34c,
+    plata: #bcb2b2,
+    gris_claro: #dbd8d8,
+);
+
+@function color($color-name) {
+    @return map-get($colors,
+    $color-name);
+}
+
+/*tamaños fuentes*/
+
+$font-sizes: ( xxl: 6rem,
+xl: 3rem,
+lg: 2rem,
+sm: 1rem
+);
+
+/*funcion que devuelve el tamaño*/
+
+@function size($size) {
+    @return map-get($font-sizes,
+    $size);
+}
+
+$font-weights: ( "light": 300,
+"regular": 400,
+"bold": 700);
+
+/*funcion que devuelve el peso*/
+
+@function weight($weight) {
+    @return map-get($font-weights,
+    $weight);
+}

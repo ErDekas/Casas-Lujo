@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ba6470173b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <title>Casas de Lujo</title>
+</head>
+
+<body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <a class="navbar-brand" href="#">Casas de Lujo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" role="button">Destinos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" role="button">Informacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" role="button">Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" role="button">Contacto</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+        </header>
+        <!-- Form Bar -->
+        <div class="form-bar">
+            <input type="text" name="search" placeholder="¿Qué estás buscando? 🔍" class="col-4 form-control" autocomplete="off"/>
+            <input type="date" name="date" placeholder="check in → check out" class="col-4 form-control">
+            <select class="form-control">
+              <option selected>🛏️ habitaciones</option>
+              <option>1 hab (1-2 personas)</option>
+              <option>2 hab (3-4 personas)</option>
+              <option>3 hab (5-6 personas)</option>
+              <option>4 hab (7-8 personas)</option>
+              <option>5 hab (9-10 personas)</option>
+            </select>
+            <button>Search</button>  
+        </div>
+        <!-- Carrousel -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/pexels-graphicgumcom-1115804.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Casas modernas y minimalistas</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/pexels-asad-photo-maldives-1449729.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Casas en el mar, la nueva tendencia</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/pexels-expect-best-323780.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Casas llevadas al siguiente nivel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/pexels-max-vakhtbovych-7746560.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Casas rústicas</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/pexels-pixabay-259588.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Casas residenciales para toda la familia</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previo</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        <!-- Keypoints -->
+        <section class="keypoints">
+          <h2 class="keypoints-title">Villas de Lujo & VACATION RENTALS</h2>
+          <div class="keypoints-column">
+            <div class="keypoints-column-content">
+              <h2 class="keypoints-column-title">25 Años de Experiencia</h2>
+              <p class="keypoints-column-text">Inspeccionamos las viviendas personalmente</p>
+          </div>
+              <i class="fa-solid fa-medal keypoints-column-icon"></i>
+          </div>
+          <div class="keypoints-column">
+              <div class="keypoints-column-content">
+                  <h2 class="keypoints-column-title">Servicio excepcional</h2>
+                  <p class="keypoints-column-text">Podemos diseñar tu vacación a medida con nuestro equipo de conserjería de primera clase.</p>
+              </div>
+              <i class="fa-solid fa-users keypoints-column-icon"></i>
+          </div>
+          <div class="keypoints-column">
+            <i class="fa-solid fa-earth-europe keypoints-column-icon"></i>
+              <div class="keypoints-column-content">
+                  <h2 class="keypoints-column-title">Viaja por todo el mundo</h2>
+                  <p class="keypoints-column-text">Con Casas de Lujo, puedes elegir entre cientos de casas de lujo alrededor del mundo.</p>
+              </div>
+          </div>
+          <div class="keypoints-column">
+              <div class="keypoints-column-content">
+                <h2 class="keypoints-column-title">Ofertas especiales</h2>  
+                <p class="keypoints-column-text">Descubre nuestras últimas ofertas para el mejor alquiler de Villas de Lujo.</p>
+              </div>
+              <i class="fa-solid fa-tag keypoints-column-icon"></i>
+          </div>
+      </section>
+      <section class="gallery">
+        <a>
+            <div class="gallery-card">
+              <h3 class="gallery-card-title">Villas tradicionales</h3> 
+            </div>
+        </a>
+        <div class="gallery-card"> 
+          <h3 class="gallery-card-title">TOP Villas de Lujo</h3>
+        </div>
+        <div class="gallery-card"> 
+          <h3 class="gallery-card-title">Villas grandes</h3>
+        </div>
+        <div class="gallery-card">
+            <h3 class="gallery-card-title">Mejores Villas</h3>
+        </div>
+    </section>
+
+      <section class="reviews">
+        <h2 class="reviews-header">Opiniones de los huéspedes</h2>
+        <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="reviews-text">
+                <h4 class="reviews-text-title">Jose Luis Perez</h4>
+                <i data-star="4.4"></i>
+                <p class="reviews-text-description">
+                  Este fue un gran viaje para celebrar el 50 aniversario de bodas de mis padres. Queríamos que fuera algo muy especial para ellos, y lo fue. Tanto Lucrezia como Serena de Home in Italy fueron increíbles para tratar, muy amables y útiles, ¡no lo hubiéramos logrado sin su ayuda! Les di muchas listas de reservas y alergias alimentarias, y pudieron organizar cada reserva de restaurante con tanto cuidado y elegancia. ¡Estoy deseando trabajar con Home in Italy para nuestra próxima aventura! No trataré con nadie más.  
+                  El interior de la villa fue igualmente impresionante, con acabados de alta gama y muebles lujosos. Particularmente aprecié la atención al detalle, desde la cama cómoda hasta la cocina bien equipada. También me encantó la piscina privada y los espacios exteriores, que fueron perfectos para relajarse y hacer reuniones.                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="reviews-text">
+                <h4 class="reviews-text-title">Josh Mckenzie</h4>
+                <i data-star="5"></i>
+                <p class="reviews-text-description">
+                  Hospedarse en las Villas de Lujo fue una experiencia inolvidable. La villa estaba bellamente diseñada con todas las comodidades modernas que uno podría desear. El personal fue increíblemente atento y se aseguró de que se cumpliera cada una de nuestras necesidades. La vista desde la villa era simplemente impresionante y contribuyó a la atmósfera general de serenidad y relajación. Me impresionó especialmente la piscina privada y los jardines bien cuidados. Las habitaciones eran amplias y cómodas, con sábanas y decoración de alta gama. En general, las Villas de Lujo superaron todas mis expectativas.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="reviews-text">
+                <h4 class="reviews-text-title">Maria José Lopez</h4>
+                <i data-star="4.0"></i>
+                <p class="reviews-text-description">  
+                  Lucrezia me ayudó a planear un viaje único en la vida para mi familia y grupo de amigos. Las sugerencias para actividades, restaurantes, visitas turísticas, etc., fueron absolutamente perfectas para nuestro grupo. El nivel de servicio superó todas nuestras expectativas; utilizaremos Home in Italy y solicitaremos a Lucrezia para cada futuro viaje que realicemos a Italia. Nuevamente, no podemos agradecerles lo suficiente. ¡Realmente tuvimos el mejor tiempo!                </p> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="reviews-text">
+                <h4 class="reviews-text-title">Emilia Florencia</h4>
+                <i data-star="4.8"></i>
+                <p class="reviews-text-description">
+                  Las Villas de Lujo son realmente una vista magnífica. Los interiores espaciosos están bellamente diseñados con gran atención al detalle, contando con muebles de alta gama, electrodomésticos de última tecnología y una decoración elegante. Las habitaciones son amplias y cómodas, con baños en suite que ofrecen una experiencia digna de un spa.  
+Los espacios exteriores también son impresionantes, con vistas espectaculares y amplias oportunidades para relajarse y disfrutar. Ya sea que busques una escapatoria tranquila y pacífica o una escapada lujosa y animada, esta villa tiene algo para todos.                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="reviews-text">
+                <h4 class="reviews-text-title">Pablo Martinez</h4>
+                <i data-star="4.4"></i>
+                <p class="reviews-text-description">
+                  Recientemente tuve el privilegio de alojarme en una villa de lujo y debo decir que fue una experiencia realmente impresionante. Desde el momento en que entré, fui recibido por la opulencia y la grandeza. La decoración era deslumbrante, con detalles intrincados y muebles de alta gama que desprendían elegancia y sofisticación.  
+La villa contaba con habitaciones espaciosas, con camas cómodas, sábanas de alta calidad y almohadas mullidas. Los baños eran espectaculares, con accesorios de lujo, duchas de alta presión y bañeras profundas. La cocina estaba completamente equipada con electrodomésticos de última generación, lo que facilitaba preparar una comida gourmet.                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <footer class="footer">
+          <div class="footer-column">
+            <h2 class="footer-title">Ayuda</h2>
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">Contacto</a></li>
+              <li><a class="footer-link" href="#">Pagos</a></li>
+              <li><a class="footer-link" href="#">Devoluciones</a></li>
+              <li><a class="footer-link" href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2 class="footer-title">Sobre nosotros</h2>
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">Quienes somos</a></li>
+              <li><a class="footer-link" href="#">Trabaja con nosotros</a></li>
+              <li><a class="footer-link" href="#">Politica de privacidad</a></li>
+              <li><a class="footer-link" href="#">Términos y condiciones</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2 class="footer-title">Legal</h2>
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">Política de Cookies</a></li>
+              <li><a class="footer-link" href="#">Politica de privacidad</a></li>
+              <li><a class="footer-link" href="#">Términos y condiciones</a></li>
+              <li><a class="footer-link" href="#">Terminos legales</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2 class="footer-title">Métodos de pago</h2>
+            <ul class="footer-row footer-list">
+              <li>
+                <a class="footer-icon"><i class="fa-brands fa-cc-visa"></i></a>
+              </li>
+              <li>
+                <a class="footer-icon"><i class="fa-brands fa-cc-mastercard"></i></a>
+              </li>
+              <li>
+                <a class="footer-icon"><i class="fa-brands fa-cc-paypal"></i></a>
+              </li>
+              <li>
+                <a class="footer-icon"><i class="fa-brands fa-cc-amazon-pay"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2 class="footer-title">Follow Us</h2>
+            <ul class="footer-row footer-list">
+              <li>
+                <a href="https://www.instagram.com/tudekas" target="_blank"><i class="fab fa-instagram footer-icon"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f footer-icon"></i></a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter footer-icon"></i></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+</body>
+
+</html>
